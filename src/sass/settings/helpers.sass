@@ -1,0 +1,33 @@
+/* ============================================================================
+   Hellper function
+   ========================================================================= */
+
+
+/**
+  * This file is meant for function to help you develop faster  design
+  * Example colors, margin, padding etc
+ */
+
+
+/**
+  * This file is meant for function to help you develop faster  design
+  * Example colors, margin, padding etc
+ */
+
+=Element($name)
+  @at-root #{&}__#{$name}
+    @content
+
+=Modifier($name)
+  @at-root #{&}--#{$name}
+    @content
+
+
+=calculateRem($size)
+  $remSize: $size / 16px
+  @return $remSize * 1rem
+
+
+=font-size($size)
+  font-size: $size
+  font-size: calculateRem($size)

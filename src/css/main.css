@@ -1,0 +1,192 @@
+/* ============================================================================
+   Settings
+   @mixin ======================================================================== */
+/**
+  * This file is meant for adding the globa setting of this project
+  * Example colors, margin, padding etc
+ */
+/* ============================================================================
+   Hellper function
+   @mixin ======================================================================== */
+/**
+  * This file is meant for function to help you develop faster  design
+  * Example colors, margin, padding etc
+ */
+/**
+  * This file is meant for function to help you develop faster  design
+  * Example colors, margin, padding etc
+ */
+/* ============================================================================
+   Media queries for all screens
+   @mixin ======================================================================== */
+/**
+  * Here you have all media queries defined by the
+  * google meterial style guides
+ */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+  font-family: "Open Sans";
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+body {
+  background: green; }
+
+/**
+ * Bassic configuration for flex box
+ */
+.grid__item {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #FF9800;
+  padding: 12px;
+  border: solid 1px #e7e7e7; }
+
+.grid, .grid-row, .grid-column {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.grid__12 .grid__item {
+  -webkit-flex: 1 1 96%;
+  -ms-flex: 1 1 96%;
+  flex: 1 1 96%; }
+
+.grid__11 .grid__item {
+  -webkit-flex: 1 1 88%;
+  -ms-flex: 1 1 88%;
+  flex: 1 1 88%; }
+
+.grid__10 .grid__item {
+  -webkit-flex: 1 1 80%;
+  -ms-flex: 1 1 80%;
+  flex: 1 1 80%; }
+
+.grid__9 .grid__item {
+  -webkit-flex: 1 1 72%;
+  -ms-flex: 1 1 72%;
+  flex: 1 1 72%; }
+
+.grid__8 .grid__item {
+  -webkit-flex: 1 1 64%;
+  -ms-flex: 1 1 64%;
+  flex: 1 1 64%; }
+
+.grid__7 .grid__item {
+  -webkit-flex: 1 1 56%;
+  -ms-flex: 1 1 56%;
+  flex: 1 1 56%; }
+
+.grid__6 .grid__item {
+  -webkit-flex: 1 1 48%;
+  -ms-flex: 1 1 48%;
+  flex: 1 1 48%; }
+
+.grid__5 .grid__item {
+  -webkit-flex: 1 1 40%;
+  -ms-flex: 1 1 40%;
+  flex: 1 1 40%; }
+
+.grid__4 .grid__item {
+  -webkit-flex: 1 1 32%;
+  -ms-flex: 1 1 32%;
+  flex: 1 1 32%; }
+
+.grid__3 .grid__item {
+  -webkit-flex: 1 1 24%;
+  -ms-flex: 1 1 24%;
+  flex: 1 1 24%; }
+
+.grid__2 .grid__item {
+  -webkit-flex: 1 1 16%;
+  -ms-flex: 1 1 16%;
+  flex: 1 1 16%; }
+
+.grid__1 .grid__item {
+  -webkit-flex: 1 1 8%;
+  -ms-flex: 1 1 8%;
+  flex: 1 1 8%; }
+
+.center {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.start {
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+
+.end {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.grid-row {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.grid-column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+button {
+  background: #FF9800; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+input:focus,
+button:focus {
+  outline: 0; }

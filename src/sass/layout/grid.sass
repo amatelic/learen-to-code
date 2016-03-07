@@ -1,0 +1,43 @@
+$class-slug : grid
+
+$rows-size: floor(100/12)
+
+/**
+ * Bassic configuration for flex box
+ */
+
+.grid__item
+  flex: 1
+  background: $primary-color
+  padding: 12px
+  border: solid 1px #e7e7e7
+
+.grid
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+
+
+//greed 12 system
+@for $i from 12 through 1
+    .#{$class-slug}__#{$i}
+        .grid__item
+            flex: 1 1 #{$rows-size * $i}%
+
+.center
+    justify-content: center
+
+.start
+    justify-content: flex-start
+
+.end
+    justify-content: flex-end
+
+
+.grid-row
+    @extend .grid
+    flex-direction: row
+
+.grid-column
+    @extend .grid
+    flex-direction: column
