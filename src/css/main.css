@@ -72,9 +72,6 @@ main {
   display: -ms-flexbox;
   display: flex; }
 
-body {
-  background: green; }
-
 /**
  * Bassic configuration for flex box
  */
@@ -179,9 +176,6 @@ body {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
-
-button {
-  background: #FF9800; }
 
 body {
   width: 100%;

@@ -39,7 +39,7 @@ gulp.task('js', function() {
     .pipe(fs.createWriteStream('./src/js/main.js'));
 });
 
-gulp.task('webserver', function() {
+gulp.task('server', function() {
   browserSync.init({
     server: {
       baseDir: './src/',
